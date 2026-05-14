@@ -2,7 +2,7 @@
 Description=OpenShell Gateway
 Documentation=https://github.com/NVIDIA/OpenShell
 After=default.target podman.socket
-Requires=podman.socket
+Wants=podman.socket
 
 [Service]
 Type=simple
